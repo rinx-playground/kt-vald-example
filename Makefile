@@ -12,6 +12,10 @@ build: \
 	dependencies
 	./gradlew build
 
+.PHONY: run
+run:
+	./gradlew run
+
 .PHONY: clean
 clean:
 	rm -rf $(VALD_DIR)
